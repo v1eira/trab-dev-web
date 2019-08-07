@@ -10,3 +10,10 @@ Magno Macedo () <br>
 
 # PMC
 ![PMC](arquivos/PMC.png)
+
+# Protótipos das Telas
+
+1. Tela de Login <br>
+2. Tela de Cadastro <br>
+3. Tela Lista de Barbeiros <br>
+4. Tela Cortes Agendados <br>
