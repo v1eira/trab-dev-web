@@ -5,7 +5,8 @@ Repositório para atividades relativas ao projeto da disciplina de Desenvolvimen
 David Vilaça () <br>
 Douglas Inácio () <br>
 Ewerson Vieira (ewersonv@gmail.com) <br>
-Luiz Henrique () <br>
+Luiz Henrique (luiz.lk.lima@gmail.com) <br>
+Magno Macedo () <br>
 
 # PMC
 ![PMC](arquivos/PMC.png)
