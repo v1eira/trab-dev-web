@@ -1,6 +1,9 @@
 # Trabalho de Desenvolvimento Web
 Repositório para atividades relativas ao projeto da disciplina de Desenvolvimento Web
 
+# Objetivo
+Criação de um aplicativo mobile para agendamento de horários com barbeiros, visando eliminar o tempo de espera para ser atentido por esses profissionais.
+
 # Grupo:
 David Vilaça () <br>
 Douglas Inácio () <br>
@@ -13,7 +16,19 @@ Magno Macedo () <br>
 
 # Protótipos das Telas
 
-1. Tela de Login <br>
-2. Tela de Cadastro <br>
-3. Tela Lista de Barbeiros <br>
-4. Tela Cortes Agendados <br>
+## 1. Tela de Login <br>
+<p align="center">
+    <img src="arquivos/login.JPG"/>
+</p>
+
+## 2. Tela Lista de Barbeiros <br>
+<p align="center">
+    <img src="arquivos/home.JPG"/>
+</p>
+
+## 3. Tela Cortes Agendados <br>
+<p align="center">
+    <img src="arquivos/agendamentos.JPG"/>
+</p>
+
+O protótipo completo pode ser visto [aqui](arquivos/Barbex.pdf).
