@@ -5,11 +5,11 @@ Repositório para atividades relativas ao projeto da disciplina de Desenvolvimen
 Criação de um aplicativo mobile para agendamento de horários com barbeiros, visando eliminar o tempo de espera para ser atentido por esses profissionais.
 
 # Grupo:
-David Vilaça () <br>
-Douglas Inácio () <br>
+David Vilaça (vilacapdavid@gmail.com) <br>
+Douglas Inácio (douglasbravimbraga@hotmail.com) <br>
 Ewerson Vieira (ewersonv@gmail.com) <br>
 Luiz Henrique (luiz.lk.lima@gmail.com) <br>
-Magno Macedo () <br>
+Magno Macedo (magnomacedodeoliveira@gmail.com) <br>
 
 # PMC
 ![PMC](arquivos/PMC.png)
@@ -32,3 +32,5 @@ Magno Macedo () <br>
 </p>
 
 O protótipo completo pode ser visto [aqui](arquivos/Barbex.pdf).
+
+## Diagrama de classes
