@@ -34,3 +34,5 @@ Magno Macedo (magnomacedodeoliveira@gmail.com) <br>
 O protótipo completo pode ser visto [aqui](arquivos/Barbex.pdf).
 
 ## Diagrama de classes
+
+![diagrama-de-classes](arquivos/diagrama_de_classes.png)
