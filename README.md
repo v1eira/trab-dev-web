@@ -28,7 +28,7 @@ Magno Macedo (magnomacedodeoliveira@gmail.com) <br>
 | RNF06 | O sistema deve retornar a pesquisa do usuário em menos de 10 segundos. | Utilizar cache para as ações do usuário. |
 | RNF07 | O sistema deve ter alta disponibilidade. | Utilizar arquitetura escalável e distribuir os servidores. |
 | RNF08 | O sistema deve ter meios de resolver transações pendentes (segurança contra falhas). | Usar API externa para pagamentos. |
-| RNF09 | A interface deve ser intuitiva e amigável. | Utilizar heurísticas de nielsen. |
+| RNF09 | O usuário deve ser capaz de utilizar as principais atividades do sistema em, no máximo, 2 minutos. | Utilizar heurísticas de nielsen. |
 | RNF10 | O sistema deve ser modularizado. | Utilizar arquitetura MVC. |
 | RNF11 | O sistema precisa estar disponível para usuários de todo o país. | Disponibilizar várias threads do mesmo serviço no mesmo servidor. |
 
