@@ -1,4 +1,4 @@
-# Trabalho de Desenvolvimento Web
+# Trabalho de Desenvolvimento Web (+ Projeto de Sistemas)
 Repositório para atividades relativas ao projeto da disciplina de Desenvolvimento Web
 
 # Objetivo
@@ -13,6 +13,24 @@ Magno Macedo (magnomacedodeoliveira@gmail.com) <br>
 
 # PMC
 ![PMC](arquivos/PMC.png)
+
+# Minimundo
+
+# Requisitos Não Funcionais + Táticas
+
+| RNF | Detalhamento | Tática |
+|---|---|---|
+| RNF01 | O sistema deve ser construído utilizando uma linguagem de fácil manutenção. | Implementar a solução em JavaScript. |
+| RNF02 | A interface do sistema deve ser responsiva. | Utilizar bootstrap. |
+| RNF03 | O sistema deve ser feito para Android e iOS. | Utilizar React Native. |
+| RNF04 | O sistema deve ter um meio de exibir a localização do estabelecimento num mapa. | Utilizar geolocalização. |
+| RNF05 | O sistema deve autenticar seus usuários. | Autenticar o usuário através de e-mail e senha ou login via rede social. |
+| RNF06 | O sistema deve retornar a pesquisa do usuário em menos de 10 segundos. | Utilizar cache para as ações do usuário. |
+| RNF07 | O sistema deve ter alta disponibilidade. | Utilizar arquitetura escalável e distribuir os servidores. |
+| RNF08 | O sistema deve ter meios de resolver transações pendentes (segurança contra falhas). | Usar API externa para pagamentos. |
+| RNF09 | A interface deve ser intuitiva e amigável. | Utilizar heurísticas de nielsen. |
+| RNF10 | O sistema deve ser modularizado. | Utilizar arquitetura MVC. |
+| RNF11 | O sistema precisa estar disponível para usuários de todo o país. | Disponibilizar várias threads do mesmo serviço no mesmo servidor. |
 
 # Protótipos das Telas
 
