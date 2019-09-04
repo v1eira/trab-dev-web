@@ -70,16 +70,19 @@ Uma das mudanças previstas será a inclusão de funcionalidades para atender ao
 | Categoria | Requisitos Não Funcionais Considerados | Condutor da Arquitetura | Tática |
 |-----------|----------------------------------------|-------------------------|--------|
 | categoria | RNF01 | condutor | Implementar a solução em JavaScript. |
-| categoria | RNF02 | condutor | Utilizar bootstrap. |
+| categoria | RNF02 | condutor | Utilizar heurísticas de nielsen. |
 | categoria | RNF03 | condutor | Utilizar React Native. |
-| categoria | RNF04 | condutor | Utilizar geolocalização. |
+| categoria | RNF04 | condutor | Utilizar API de geolocalização do Google. |
 | categoria | RNF05 | condutor | Autenticar o usuário através de e-mail e senha ou login via rede social. |
 | categoria | RNF06 | condutor | Utilizar cache para as ações do usuário. |
 | categoria | RNF07 | condutor | Utilizar arquitetura escalável e distribuir os servidores. |
 | categoria | RNF08 | condutor | Usar API externa para pagamentos. |
-| categoria | RNF09 | condutor | Utilizar heurísticas de nielsen. |
-| categoria | RNF10 | condutor | Utilizar arquitetura MVC. |
-| categoria | RNF11 | condutor | Utilizar Docker para escalar a aplicação. |
+| categoria | RNF09 | condutor | Utilizar arquitetura MVC. |
+| categoria | RNF10 | condutor | Utilizar Docker para escalar a aplicação. |
+| categoria | RNF11 | condutor | Utilizar Sentry para reportar log completo a respeito dos erros erros. |
+| categoria | RNF12 | condutor | Separar o acesso ás funcionalidades por tipo de login (cliente/barbeiro). |
+| categoria | RNF13 | condutor | Solicitar confirmações do usuário diante de tarefas críticas. |
+| categoria | RNF14 | condutor | O <i>backend</i> da aplicação deve ser feito utilizando o conceito de API REST. |
 
 ## Protótipos das Telas
 
