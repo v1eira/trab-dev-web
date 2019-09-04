@@ -51,17 +51,20 @@ Uma das mudanças previstas será a inclusão de funcionalidades para atender ao
 ## Requisitos Não Funcionais
 | Identificador | Descrição | Categoria | Escopo |
 |---------------|-----------|-----------|--------|
-| RNF01 | O sistema deve ser construído utilizando uma linguagem de fácil manutenção. | categoria | escopo |
-| RNF02 | A interface do sistema deve ser responsiva. | categoria | escopo |
-| RNF03 | O sistema deve ser feito para Android e iOS. | categoria | escopo |
-| RNF04 | O sistema deve ter um meio de exibir a localização do estabelecimento num mapa. | categoria | escopo |
-| RNF05 | O sistema deve autenticar seus usuários. | categoria | escopo |
-| RNF06 | O sistema deve retornar a pesquisa do usuário em menos de 10 segundos. | categoria | escopo |
-| RNF07 | O sistema deve ter alta disponibilidade. | categoria | escopo |
-| RNF08 | O sistema deve ter meios de resolver transações pendentes (segurança contra falhas). | categoria | escopo |
-| RNF09 | O usuário deve ser capaz de utilizar as principais atividades do sistema em, no máximo, 2 minutos. | categoria | escopo |
-| RNF10 | O sistema deve ser modularizado. | categoria | escopo |
-| RNF11 | O sistema precisa estar disponível para usuários de todo o país. | categoria | escopo |
+| RNF01 | O sistema deve ser construído utilizando uma linguagem de fácil manutenção. | Manutenibilidade | Sistema |
+| RNF02 | O usuário deve ser capaz de utilizar as principais atividades do sistema em, no máximo, 2 minutos. | Inteligibilidade | Sistema |
+| RNF03 | O sistema deve ser feito para Android e iOS. | Compatibilidade | Sistema |
+| RNF04 | O sistema deve ter um meio de exibir a localização do estabelecimento num mapa. | Interoperabilidade | Sistema |
+| RNF05 | O sistema deve autenticar seus usuários. | Autenticação | Sistema |
+| RNF06 | As pesquisas dos usuários devem ser retornadas em menos de 10 segundos. | Operacionalidade | Funcionalidade |
+| RNF07 | O sistema deve estar disponível 24h/dia. | Disponibilidade | Sistema |
+| RNF08 | O sistema deve ter meios de resolver transações pendentes (segurança contra falhas). | Interoperabilidade | Sistema |
+| RNF09 | Os módulos que compõem o sistema devem estar bem separados. | Modificabilidade | Sistema |
+| RNF10 | O sistema precisa estar disponível para usuários de todo o país. | Operacionalidade | Sistema |
+| RNF11 | O sistema deve dar um feedback claro à respeito dos erros que eventualmente ocorrerem. | Analisabilidade | Sistema |
+| RNF12 | O sistema deve controlar o acesso dos usuários às rotas específicas de cada um deles. | Autorização | Sistema |
+| RNF13 | O usuário deve ser avisado quando estiver realizando alguma ação crítica (agendamento/pagamento). | Proteção contra erros do usuário | Sistema |
+| RNF14 | O acesso ao banco de dados deve ser feito de forma separada, possibilitando a utilização do mesmo banco em uma versão Web. | Reusabilidade | Sistema |
 
 ## Táticas
 | Categoria | Requisitos Não Funcionais Considerados | Condutor da Arquitetura | Tática |
