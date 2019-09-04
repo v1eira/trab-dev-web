@@ -69,20 +69,18 @@ Uma das mudanças previstas será a inclusão de funcionalidades para atender ao
 ## Táticas
 | Categoria | Requisitos Não Funcionais Considerados | Condutor da Arquitetura | Tática |
 |-----------|----------------------------------------|-------------------------|--------|
-| categoria | RNF01 | condutor | Implementar a solução em JavaScript. |
-| categoria | RNF02 | condutor | Utilizar heurísticas de nielsen. |
-| categoria | RNF03 | condutor | Utilizar React Native. |
-| categoria | RNF04 | condutor | Utilizar API de geolocalização do Google. |
-| categoria | RNF05 | condutor | Autenticar o usuário através de e-mail e senha ou login via rede social. |
-| categoria | RNF06 | condutor | Utilizar cache para as ações do usuário. |
-| categoria | RNF07 | condutor | Utilizar arquitetura escalável e distribuir os servidores. |
-| categoria | RNF08 | condutor | Usar API externa para pagamentos. |
-| categoria | RNF09 | condutor | Utilizar arquitetura MVC. |
-| categoria | RNF10 | condutor | Utilizar Docker para escalar a aplicação. |
-| categoria | RNF11 | condutor | Utilizar Sentry para reportar log completo a respeito dos erros erros. |
-| categoria | RNF12 | condutor | Separar o acesso ás funcionalidades por tipo de login (cliente/barbeiro). |
-| categoria | RNF13 | condutor | Solicitar confirmações do usuário diante de tarefas críticas. |
-| categoria | RNF14 | condutor | O <i>backend</i> da aplicação deve ser feito utilizando o conceito de API REST. |
+| Manutenibilidade | RNF01 | Sim | Implementar a solução em JavaScript. |
+| Inteligibilidade | RNF02 | Não | Utilizar heurísticas de nielsen. |
+| Compatibilidade | RNF03 | Sim | Utilizar React Native. |
+| Interoperabilidade | RNF04, RNF08 | Não | <li> Utilizar API de geolocalização do Google. </li><br> <li> Usar API externa para pagamentos. </li> |
+| Autenticação | RNF05 | Não | Autenticar o usuário através de e-mail e senha ou login via rede social. |
+| Operacionalidade | RNF06, RNF10 | Sim | <li> Utilizar cache para as ações do usuário. </li> <br> <li> Utilizar Docker para escalar a aplicação. </li> |
+| Disponibilidade | RNF07 | Sim | Utilizar arquitetura escalável e distribuir os servidores. |
+| Modificabilidade | RNF09 | Sim | Utilizar arquitetura MVC. |
+| Analisabilidade | RNF11 | Não | Utilizar Sentry para reportar log completo a respeito dos erros. |
+| Autorização | RNF12 | Não | Separar o acesso às funcionalidades por tipo de login (cliente/barbeiro). |
+| Proteção contra erros do usuário | RNF13 | Não | Solicitar confirmações do usuário diante de tarefas críticas. |
+| Reusabilidade | RNF14 | Sim | O <i>backend</i> da aplicação deve ser feito utilizando o conceito de API REST. |
 
 ## Protótipos das Telas
 
