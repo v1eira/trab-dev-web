@@ -104,5 +104,8 @@ O protótipo completo pode ser visto [aqui](arquivos/Barbex.pdf).
 ## Diagrama de classes
 ![diagrama-de-classes](arquivos/diagrama_de_classes.png)
 
+## Diagrama de sequência
+![diagrama-de-sequencia](arquivos/diagrama_de_sequencia.svg)
+
 ## Back-end
 O back-end da aplicação se encontra [neste repositório](https://github.com/v1eira/barbex-backend).

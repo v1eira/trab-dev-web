@@ -1,0 +1,24 @@
+# https://mermaidjs.github.io/mermaid-live-editor
+
+sequenceDiagram
+    participant Actor
+    participant Screen
+    participant Controller
+    participant Appointment
+    participant Barbershop
+    participant Barber
+    Actor->>Screen: ;
+    Screen->>Controller: ;
+    Controller->>Appointment: ;
+    Appointment->>Appointment: checkDateIsValid();
+    Appointment->>Barbershop: makeAppointment();
+    Barbershop->>Barbershop: checkBarbershopExists();
+    Barbershop->>Barber: makeAppointment();
+    Barber->>Barber: checkBarberExists();
+    Barber->>Barber: checkAvailability();
+    Barber->>Barber: createNewAppointment();
+    Barber-->>Barbershop: ;
+    Barbershop-->>Appointment: ;
+    Appointment-->>Controller: ;
+    Controller-->>Screen: ;
+    Screen-->>Actor: ;
